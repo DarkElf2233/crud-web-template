@@ -1,8 +1,13 @@
 import './App.css'
 
+import { Navbar } from './components/Navbar'
+
 function App() {
   return (
-    <h1>A template for CRUD app.</h1>
+    <div className='content'>
+      <Navbar />
+      <h1>A template for CRUD application.</h1>
+    </div>
   )
 }
 

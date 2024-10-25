@@ -1,4 +1,4 @@
-# Web-application with CRUD template
+# A template for web application with CRUD
 
 ## Frontend: React (useing Vite)
 
