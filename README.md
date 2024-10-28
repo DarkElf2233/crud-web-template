@@ -1,5 +1,5 @@
 # A template for web application with CRUD
 
-## Frontend: React (useing Vite)
+## Frontend: React (useing cra)
 
 ## Backend: fastapi
