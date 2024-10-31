@@ -1,7 +1,9 @@
-from fastapi import APIRouter
-# from repository import
-# from schemas import
+from fastapi import APIRouter, FastAPI
+from fastapi_sqlalchemy import DBSessionMiddleware, db
 
+import os
+
+app = FastAPI()
 router = APIRouter()
 
-# Your routes here.
+app.add_middleware(DBSessionMiddleware, db_url=os.environ['DATABASE_URL'])

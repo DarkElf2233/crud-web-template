@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <BootstrapNavbar fixed="top" expand="lg" className="bg-body-tertiary">
         <Container>
-          <BootstrapNavbar.Brand href="/">My Site</BootstrapNavbar.Brand>
+          <BootstrapNavbar.Brand href="/">My Template</BootstrapNavbar.Brand>
           <Nav className="md-right">
             <RouterNavLink to="/signin">Вход</RouterNavLink>
             <RouterNavLink to="/signup">Регистрация</RouterNavLink>
